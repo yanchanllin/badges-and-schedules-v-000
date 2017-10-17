@@ -11,4 +11,5 @@ end
 def assign_rooms
  speakers= [Edsger, Ada, Charles, Alan, Grace, Linus, Matz]
 speakers.each_with_index { |name, index|}
-puts "Hello,{name}! You'll be assigned to room {index}!"
+puts "Hello,{name}! You'll be assigned to room #{index}!"
+end 
